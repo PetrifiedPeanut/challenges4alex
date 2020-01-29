@@ -11,4 +11,4 @@ class challenge1:
 
 
 runner = challenge1()
-runner.run("tommy")
+runner.run("alex")
