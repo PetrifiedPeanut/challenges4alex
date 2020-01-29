@@ -6,12 +6,6 @@
 # }
 class challenge2:
     def run(self, pythonDict):
-        #your code here
+        var = json.dumps(pythonDict)
         solution = pythonDict
         return solution
-
-
-
-
-
-

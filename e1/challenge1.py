@@ -7,8 +7,5 @@ class challenge1:
         return reversedString
 
 
-
-
-
 runner = challenge1()
 runner.run("alex")

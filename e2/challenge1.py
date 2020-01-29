@@ -3,11 +3,6 @@
 import json
 class challenge1:
     def run(self, jsonstring):
-        #your code here
-        solution = jsonstring
+        y = json.loads(jsonstring)
+        solution = y["job"]
         return solution
-
-for items in challenge1:
-    y = json.loads(x)
-    print(json.dumps({"name"}))
-    print(y)

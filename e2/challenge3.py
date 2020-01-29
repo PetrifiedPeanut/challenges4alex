@@ -5,8 +5,9 @@
 import json
 class challenge3:
     def run(self, jsonstring):
-        #your code here
+        jsonObjects = json.loads(jsonstring)
+        for row in jsonObjects:
+
         solution = jsonstring
         return solution
-
 
